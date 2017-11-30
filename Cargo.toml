@@ -4,3 +4,11 @@ version = "0.1.0"
 authors = ["Daniel Rees <daniel.rees18@gmail.com>"]
 
 [dependencies]
+
+[lib]
+name = "cminus"
+path = "src/lib.rs"
+
+[[bin]]
+name = "cminus_compiler"
+path = "src/bin.rs"
